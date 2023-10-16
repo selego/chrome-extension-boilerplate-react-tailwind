@@ -152,16 +152,16 @@ Official documentation [here](https://developer.apple.com/documentation/safarise
 ### Convert
 
 Run on the terminal the following command, that will convert the extension in a new Xcode project:
-`/Applications/Xcode.app/Contents/Developer/usr/bin/safari-web-extension-converter ./macadam-cashback/dist`
+`/Applications/Xcode.app/Contents/Developer/usr/bin/safari-web-extension-converter ./chrome-extension-boilerplate-react-tailwind/dist`
 
 ### Test on Safari for MacOS
 
 1. [Configure Safari in macOS to run unsigned extensions](https://developer.apple.com/documentation/safariservices/safari_web_extensions/running_your_safari_web_extension#3744467)
-2. On Xcode, at the top, select "Macadam Cashback (macOS)" and click on the "Run" button.
+2. On Xcode, at the top, select "chrome-extension-boilerplate-react-tailwind (macOS)" and click on the "Run" button.
 3. Enable the extension on Safari, and make sure to allow the extension on all websites.
 
 ### Test on Safari for iOS
 
-1. On Xcode, at the top, select "Macadam Cashback (iOS)" and click on the "Run" button.
+1. On Xcode, at the top, select "chrome-extension-boilerplate-react-tailwind (iOS)" and click on the "Run" button.
 2. On iOS, go in Settings > Safari to allow the extension.
 3. On Safari, make sure to allow the extension on all websites.
