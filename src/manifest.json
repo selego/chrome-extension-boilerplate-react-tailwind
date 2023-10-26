@@ -34,6 +34,14 @@
     "48": "icon-34.png",
     "128": "icon-128.png"
   },
+  "commands": {
+    "refresh_extension": {
+      "suggested_key": {
+        "default": "Ctrl+Space"
+      },
+      "description": "Refresh Extension"
+    }
+  },
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self';"
   }

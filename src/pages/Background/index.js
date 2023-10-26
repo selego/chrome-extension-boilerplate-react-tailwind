@@ -33,3 +33,11 @@ chrome.tabs.onUpdated.addListener(async (tabId, changeInfo, tab) => {
     chrome.tabs.sendMessage(tabId, { action: 'showModal' });
   }
 });
+
+chrome.commands.onCommand.addListener(command => {
+    console.log(`Command: ${command}`)
+
+    if (command === 'refresh_extension') {
+        chrome.runtime.reload()
+    }
+})
